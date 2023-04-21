@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    border-bottom: black 5px solid;
+    transition: 1s;
+    background-color: white;
+}
+
+header h1 {
+    padding-top: 15px;
+}
+
+header button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    height: 8vh;
+    font-size: 20px;
+    border: 5px black solid;
+    border-radius: 10px;
+}
+
+main {
+    margin-left: 66vh;
+    margin-right: 66vh;
+    padding-top: 10vh;
+    margin-top: 5vh;
+    background-color: #0099e0;
+    height: 50vh;
+    color: black;
+    border: 7px black solid;
+    border-radius: 35px;
+    transition: 1s;
+}
+
+p {
+    font-size: 30px;
+    padding-left: 20%;
+    background-color: white;
+    color: black;
+    border-bottom: 5px black solid;
+    border-top: 5px black solid;
+    transition: 1s;
+}
+
+input {
+    background-color: white;
+    color: black;
+    width: 13vh;
+    height: 3.2vh;
+    font-size: 30px;
+    padding-bottom: 3.5vh;
+    border: 5px black solid;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.box button {
+    background-color: white;
+    color: black;
+    width: 14.2vh;
+    height: 8vh;
+    font-size: 20px;
+    border: 5px black solid;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+table {
+    background-color: white;
+    border: 3px black solid;
+    border-radius: 7px;
+    margin-left: 11%;
+    margin-top: 5%;
+    width: 20vh;
+    transition: 1s;
+}
+
+.box {
+    padding-left: 25%;
+    padding-top: 10%;
+    transition: 1s;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0099e0;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px black solid;
+    transition: 1s;
+}
+
+a {
+    color: black;
+    transition: 1s;
+}
+
+
+/* Dark Mode */
+
+.dark-mode{
+    background-color: black;
+}
+
+
+.dark-mode header {
+    background-color: black;
+    color: white;
+    border-bottom: #0099e0 5px solid;
+}
+
+.dark-mode header button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 8vh;
+    font-size: 20px;
+    border: 5px #0099e0 solid;
+    border-radius: 10px;
+}
+
+.dark-mode main {
+    background-color: black;
+    border: 7px #0099e0 solid;
+    border-radius: 35px;
+}
+
+.dark-mode main p {
+    background-color: black;
+    color: white;
+    border-bottom: 5px #0099e0 solid;
+    border-top: 5px #0099e0 solid;
+}
+
+.dark-mode .body {
+    background-color: black;
+}
+
+.dark-mode input {
+    background-color: black;
+    color: white;
+    width: 13vh;
+    height: 3.2vh;
+    font-size: 30px;
+    padding-bottom: 3.5vh;
+    border: 5px #0099e0 solid;
+    border-radius: 10px;
+}
+
+.dark-mode button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 5px #0099e0 solid;
+    border-radius: 10px;
+}
+
+.dark-mode table{
+    background-color: black;
+    border: 3px #0099e0 solid;
+    color: white;
+    border-radius: 7px;
+}
+
+.dark-mode footer {
+    background-color: black;
+    color: white;
+    border-top: 5px #0099e0 solid;
+}
+
+.dark-mode footer a {
+    color: white;
+}
